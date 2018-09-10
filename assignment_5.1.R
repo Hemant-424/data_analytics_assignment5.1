@@ -1,4 +1,5 @@
 #
+states = rownames(USArrests)
 library(stringr)
 str_count(states,"a")
 str_count(tolower(states),"a")
@@ -20,3 +21,4 @@ sort(num_vowels,decreasing = TRUE)
 
 barplot(num_vowels, main = "Number of vowels in USA States names",
         border = "red", ylim = c(0, 80))
+
